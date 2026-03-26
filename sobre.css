@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: url(morangopolka.jpg);
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+h1, p{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 160, 198);
+}
+
+.caixa{
+    width: 550px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: #f4fabb;
+    border-radius: 2em;
+}
+
+header{
+    height: 100px;
+    background-color: #ebf8b0;
+    border-bottom: 3px solid #EDCAD0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.btn button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2em;
+}
+
+button{
+    background-color: #f7d3d9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.sobre>.quadrado>.content {
+  border: 20px solid transparent; 
+  border-image-source: url('chocolatepolka.jpg'); 
+  border-image-slice: 50; 
+  border-image-repeat: round;
+  height: 700px;
+  width: 800px;
+  background-color: white;
+}
+
+.sobre{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+
+.bola {
+  width: 400px;
+  height: 400px;
+  padding: 20px; 
+  border-radius: 50%;
+  background-image: url('chocolatepolka.jpg');
+  background-size: cover;
+  display: inline-block;
+}
+
+.bola img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: block;
+}
+

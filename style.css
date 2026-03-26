@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: url(neapolitan\ stripes\ wallpaper.jpg);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+h1, p{
+    display: flex;
+    justify-content: center;
+    color: rgb(244, 247, 87);
+}
+
+.caixa{
+    width: 500px;
+    height: auto;
+    background-color: #d3afff;
+    border-radius: 2em;
+    background: url(Pink.jpg);
+}
+
+header{
+    height: 100px;
+    background-color: #ebf8b0;
+    border-bottom: 3px solid #EDCAD0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.btn button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2em;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+img{
+    border-radius: 2em;
+}
+
+button{
+    background-color: #f7d3d9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}

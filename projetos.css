@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: url(quadriculado.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+h1, p{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 160, 198);
+}
+
+.caixa{
+    width: 550px;
+    padding-bottom: 100px;
+    height: auto;
+    background-color: #f4fabb;
+    border-radius: 2em;
+}
+
+header{
+    height: 100px;
+    background-color: #ebf8b0;
+    border-bottom: 3px solid #EDCAD0;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 25px;
+}
+
+.btn button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2em;
+}
+
+button{
+    background-color: #f7d3d9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+h1, p{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 160, 198);
+}
+
+.caixa{
+    width: 550px;
+    padding-bottom: 100px;
+    height: auto;
+    background: linear-gradient(#ffcfc8, #f7f3ce, #552a1b);
+    border-radius: 2em;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    color: #f780c1;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s all;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.icon>img{
+    height: 30px;
+    width: 30px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
